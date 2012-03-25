@@ -3,9 +3,10 @@ require([
     // Load our app module
     'views/app'
 
-], function(AppView){
+], function (AppView) {
+    'use strict';
 
-    new AppView();
+    var App = new AppView();
 
 });
 
